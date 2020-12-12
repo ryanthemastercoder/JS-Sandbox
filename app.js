@@ -87,18 +87,71 @@
 
 // console.log(val);
 
-const firstName = 'rYaN';
-const lastName = 'pI';
-const age = 12;
-const str = 'am i a person?';
-let val;
+// const firstName = 'rYaN';
+// const lastName = 'pI';
+// const age = 12;
+// const str = 'am i a person?';
+// // let val;
 
-val = firstName + ' ' + lastName + ': ' + age;
-val = "that's awesome";
-val = firstName.length;
-val = firstName.indexOf('N');
-val = firstName[0];
-val = firstName.substring(0, 2);
-val = str.includes('?');
+// val = firstName + ' ' + lastName + ': ' + age;
+// val = "that's awesome";
+// val = firstName.length;
+// val = firstName.indexOf('N');
+// val = firstName[0];
+// val = firstName.substring(0, 2);
+// val = str.includes('?');
 
-console.log(val);
+// console.log(val);
+
+// let html =
+//   '<ul>' +
+//   '<li>name:' +
+//   firstName +
+//   lastName +
+//   '</li>' +
+//   '<li>age:' +
+//   age +
+//   '</li>' +
+//   '</ul>';
+
+// html = `
+// <ul>
+//   <li>name: ${firstName + ' ' + lastName}</li>
+//   <li>age: ${age}</li>
+// </ul>
+// `;
+
+// document.body.innerHTML = html;
+
+// const numbers = [1, 2, 12, , 124, 2, 34, 42, 345, 2, 346, 32, 46, 26];
+// let val;
+
+// val = numbers.length;
+// val = numbers[3];
+// numbers[3] = 1;
+// val = numbers;
+
+// function sort(x, y) {
+//   return x - y;
+// }
+
+// function reverseSort(x, y) {
+//   return y - x;
+// }
+
+// val = numbers.sort(reverseSort);
+
+// console.log(val);
+
+const person = {
+  firstName: 'Bob',
+  age: 100,
+  email: 'bob@hotmail.com',
+  hobbies: ['math', 'studying'],
+  address: {
+    city: 'Suwanee',
+    state: 'GA',
+  },
+};
+
+console.log(person.address.state);
